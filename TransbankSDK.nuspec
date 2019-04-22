@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>TransbankSDK</id>
+    <version>2.2.0</version>
+    <authors>Transbank</authors>
+    <owners>Transbank</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://www.transbankdevelopers.cl/</projectUrl>
+    <iconUrl>http://www.transbankdevelopers.cl/library/img/favicon/mstile-310x310.png</iconUrl>
+    <description>This is the .Net SDK for Transbank Integration.</description>
+    <copyright>2018 - Transbank</copyright>
+    <tags>payments, cl, chile, transbank</tags>
+    <repository type="git" url="https://github.com/TransbankDevelopers/transbank-sdk-dotnet" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="Microsoft.Web.Services3" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.EnterpriseServices" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Web.Services" targetFramework=".NETFramework4.5.2" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
